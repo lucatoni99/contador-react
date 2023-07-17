@@ -10,6 +10,9 @@ const Contador = () => {
       <Button variant="primary" onClick={() => setNumero(numero + 1)}>
         +1
       </Button>
+      <Button variant="danger" onClick={() => setNumero(numero - 1)}>
+        -1
+      </Button>
     </section>
   );
 };
