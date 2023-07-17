@@ -1,10 +1,11 @@
 import "./App.css";
+import Titulos from "./componets/Titulos";
 
 function App() {
   return (
-    <div>
-      <h1>Primera app con React</h1>
-    </div>
+    <>
+      <Titulos></Titulos>
+    </>
   );
 }
 
